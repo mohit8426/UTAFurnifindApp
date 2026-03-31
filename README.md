@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![UTA FurniFind Banner](./screenshots/home2.jpg)
+![UTA FurniFind Banner](./screenshots/home.jpg)
 
 [![Expo](https://img.shields.io/badge/Expo-SDK%2053-000020?logo=expo&logoColor=white)](https://expo.dev)
 [![React Native](https://img.shields.io/badge/React%20Native-0.79-61DAFB?logo=react&logoColor=white)](https://reactnative.dev)
