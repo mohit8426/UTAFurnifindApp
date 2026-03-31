@@ -1,0 +1,713 @@
+Below is the advanced Replit Agent prompt for the mobile app version of UTA FurniFind. It keeps all the same content, flows, roles, data, and features from the website prompt, but adapts the UI/UX specifically for mobile with a more app-native experience. Replit Agent is designed for natural-language app building, so this prompt is written to be explicit, modular, and build-ready.
+
+Prompt for Replit Agent — UTA FurniFind Mobile App
+You are an expert mobile product designer, full-stack app architect, and ecommerce UX specialist.
+Build a premium, high-definition, mobile-first application named UTA FurniFind for the University of Texas at Arlington community and Arlington donors.
+
+This is the mobile app version of the UTA FurniFind platform.
+It must preserve all functionality, content, user roles, pages, inventory structure, AI features, and 100 dummy records from the web version, but the mobile UI should be redesigned for phones with a more native app feel instead of a desktop website layout.
+
+The app helps UTA students discover free furniture and household items currently available at Mission Arlington, so they do not need to visit early morning and wait in line just to check availability. It should function as a live mobile inventory and discovery app for community furniture and household goods.
+
+This is not a normal ecommerce app. It is a community reuse marketplace / donation discovery mobile app with:
+
+premium UI,
+
+role-based access,
+
+fast item discovery,
+
+donation workflows,
+
+student browsing,
+
+community participation,
+
+admin inventory management,
+
+and strong visual storytelling through modern mobile animations and VFX.
+
+1. Core product vision
+Create a mobile platform where:
+
+Students can browse available free items before visiting Mission Arlington.
+
+Donors can submit items they want to donate.
+
+Mission Arlington staff can manage inventory, approve listings, and update availability.
+
+Community users can see impact, donation guidelines, and pickup information.
+
+The app must include:
+
+modern inventory browsing,
+
+category filters,
+
+search and sorting,
+
+item detail pages,
+
+save/bookmark/favorite features,
+
+availability status,
+
+pickup instructions,
+
+donation submission flow,
+
+community impact section,
+
+responsive mobile-first design.
+
+The experience should feel like a premium mobile marketplace + university service app.
+
+2. Mobile UI direction
+Design the app specifically for mobile screens, not a desktop browser layout.
+
+Mobile-first UI principles:
+Bottom tab navigation instead of a desktop navbar.
+
+One-hand-friendly interactions.
+
+Thumb-accessible controls.
+
+Full-screen cards and stacked sections.
+
+Swipe gestures where useful.
+
+Collapsible filters and bottom sheets.
+
+Native app-like transitions.
+
+Visual style:
+Clean, warm, modern, and trustworthy.
+
+Dark mode default with optional light mode.
+
+Soft gradients with glassmorphism panels.
+
+Elegant shadows, subtle glow edges, and animated cards.
+
+Smooth page transitions and tap animations.
+
+Minimal but refined VFX:
+
+floating particles,
+
+soft ambient light,
+
+subtle parallax,
+
+micro-interactions on cards and buttons.
+
+Mobile visual identity:
+The app should feel like a blend of:
+
+premium ecommerce app,
+
+community aid platform,
+
+modern university utility app,
+
+high-end product discovery app.
+
+Use accent colors like:
+
+teal,
+
+blue,
+
+amber,
+
+soft purple.
+
+Keep typography large, readable, and optimized for small screens.
+
+3. Best-fit mobile tech stack
+Use the best modern stack for a production-ready mobile app:
+
+Framework: React Native with Expo.
+
+Navigation: Expo Router.
+
+Styling: NativeWind, Tailwind-like styling, or a strong React Native design system.
+
+Animation: Reanimated + Gesture Handler + Framer Motion style equivalents for mobile transitions.
+
+State management: Zustand, Redux Toolkit, or Context.
+
+Backend: Replit backend, Node.js/Express, or API routes.
+
+Database: PostgreSQL or MongoDB.
+
+Auth: Clerk, NextAuth-style auth if supported, or JWT-based role auth.
+
+Image handling: optimized image components and local placeholder assets.
+
+Charts / analytics: mobile-friendly chart library for inventory and community stats.
+
+AI enhancements: optional AI helper for recommendations, donation guidance, and smart search.
+
+If Replit Agent asks for a mobile starter, choose an Expo-based structure.
+
+4. Required app sections and screens
+The app should include the same product logic as the website, but optimized for mobile navigation.
+
+A. Home screen
+Hero section with mission-driven headline.
+
+Search bar for furniture/items.
+
+Quick category chips.
+
+Featured items carousel.
+
+Donation CTA.
+
+Student CTA.
+
+Impact metrics:
+
+items available,
+
+families helped,
+
+donations received,
+
+pickup success rate.
+
+Animated community story section.
+
+Personalized “Recommended for you” section.
+
+B. Browse inventory screen
+Large product grid or stacked card feed with 100 dummy records.
+
+Filters:
+
+category,
+
+condition,
+
+size,
+
+availability,
+
+pickup location,
+
+donation status.
+
+Sort options:
+
+newest,
+
+oldest,
+
+most viewed,
+
+most requested.
+
+Infinite scroll or pagination.
+
+Search by keyword.
+
+C. Item detail screen
+High-quality image gallery with swipe support.
+
+Item title, condition, dimensions, category, location, and availability.
+
+“Reserve / Interested” button if applicable.
+
+Pickup instructions.
+
+Similar items section.
+
+Donation story or source label.
+
+Trust and safety notes.
+
+D. Student dashboard
+Saved items.
+
+Recently viewed items.
+
+Pickup reminders.
+
+Recommendation engine based on need.
+
+Notification preferences.
+
+Profile with housing status and preferred item categories.
+
+E. Donor screen
+Upload donation form.
+
+Item description, photos, category, condition, pickup timing, contact info.
+
+Donation guidelines.
+
+FAQ.
+
+Impact estimate after submission.
+
+F. Mission Arlington admin panel
+Inventory management.
+
+Approve/reject items.
+
+Edit availability.
+
+Manage categories.
+
+Mark reserved / claimed / donated / expired.
+
+Basic analytics dashboard.
+
+G. Community impact screen
+How many items were reused.
+
+Environmental impact.
+
+Student benefit statistics.
+
+Donation contribution map or timeline.
+
+Testimonials.
+
+H. FAQ / Help screen
+Pickup process.
+
+Donation process.
+
+Who can use the app.
+
+What items are allowed.
+
+Contact and support.
+
+I. Contact / About screen
+Mission and purpose.
+
+UTA community focus.
+
+Contact forms.
+
+Campus and donor collaboration info.
+
+5. Inventory categories
+Include these categories at minimum:
+
+Sofas
+
+Chairs
+
+Tables
+
+Computer chairs
+
+Beds
+
+Bed frames
+
+Mattresses
+
+Couches
+
+Televisions
+
+Utensils
+
+Kitchen items
+
+Study desks
+
+Storage units
+
+Lamps
+
+Toys
+
+Bookshelves
+
+Mirrors
+
+Rugs
+
+Appliances
+
+Miscellaneous household items
+
+Also allow custom categories for future expansion.
+
+6. 100 dummy records requirement
+Generate 100 realistic dummy inventory items with:
+
+Item name.
+
+Category.
+
+Condition.
+
+Short description.
+
+Location.
+
+Availability.
+
+Pickup type.
+
+Dimensions.
+
+Color.
+
+Donor type.
+
+Posted date.
+
+Expiry date.
+
+1–4 images per item.
+
+Tags like:
+
+student-friendly,
+
+compact,
+
+dorm-ready,
+
+free,
+
+urgent pickup,
+
+lightly used.
+
+The dummy records should cover:
+
+apartments,
+
+dorms,
+
+family homes,
+
+study spaces,
+
+kitchen items,
+
+electronics,
+
+furniture.
+
+Create believable entries with variation in size, condition, and availability.
+
+7. Advanced mobile ecommerce-style features
+Add these advanced features to make it feel like a best-in-class mobile app:
+
+Search and discovery
+Smart keyword search.
+
+Faceted filters.
+
+Category chips.
+
+Related item recommendations.
+
+“Best for dorms” and “Best for apartments” filters.
+
+Personalization
+Personalized home screen based on user type.
+
+Saved preferences.
+
+Recently viewed items.
+
+Suggested items based on room type and budget.
+
+“Recommended for your setup” cards.
+
+Reservation / interest flow
+Add an “I’m Interested” or “Reserve Pickup” flow.
+
+Show pickup instructions and time windows.
+
+Optional queue or request system.
+
+Social / trust features
+Community trust badges.
+
+Verified donor label.
+
+Item condition history.
+
+Transparency indicators.
+
+Pickup eligibility warnings.
+
+Accessibility and usability
+Large tap targets.
+
+Strong color contrast.
+
+Screen reader-friendly labels.
+
+One-handed navigation.
+
+Mobile-first layout.
+
+Optional text-size controls.
+
+8. AI-powered features to add
+Include an AI helper inside the mobile app that can:
+
+Recommend items based on student needs.
+
+Suggest what furniture is best for a dorm, shared apartment, or studio.
+
+Answer questions like:
+
+“What furniture do I need for a one-bedroom apartment?”
+
+“Show me cheap essentials for a student dorm.”
+
+“Which items are available in my category?”
+
+Auto-generate item summaries and category tags.
+
+Help donors write better item descriptions.
+
+The AI should be designed so it can later connect to a real LLM.
+
+9. Motion, VFX, and UX direction
+Use elegant motion suitable for mobile:
+
+Page load fade-in and slide-up motion.
+
+Card press and lift effects.
+
+Swipeable image galleries.
+
+Animated category chips.
+
+Smooth image zoom on tap.
+
+Skeleton loading states.
+
+Floating background particles.
+
+Section reveal animations.
+
+Soft neon edges on active cards.
+
+Make the interface feel:
+
+premium,
+
+calm,
+
+modern,
+
+efficient,
+
+community-centered.
+
+10. Data model
+Create a clean schema for:
+
+Users
+
+Roles
+
+Inventory items
+
+Categories
+
+Images
+
+Reservations
+
+Donations
+
+Favorites
+
+Notifications
+
+Admin actions
+
+Pickup requests
+
+Each item should support:
+
+Title
+
+Description
+
+Category
+
+Condition
+
+Dimensions
+
+Color
+
+Availability
+
+Pickup status
+
+Location
+
+Donor info
+
+Images
+
+Tags
+
+Created/updated timestamps
+
+11. Additional screens and features you should include
+Add any screens that make sense for a high-quality mobile ecommerce-like platform:
+
+Wishlist / saved items
+
+Compare items
+
+Community announcements
+
+Pickup schedule screen
+
+Donation rules screen
+
+Sustainability screen
+
+Testimonials / success stories
+
+Profile settings
+
+Notification center
+
+Admin analytics screen
+
+Add useful extras such as:
+
+Compare two items side by side.
+
+Filter by “best condition” or “fastest pickup”.
+
+“Hot items” / “urgent pickup” section.
+
+Accessibility-friendly text size controls.
+
+Map-based pickup guidance if needed.
+
+Push notification-ready architecture.
+
+12. Mobile app structure
+Organize the app cleanly with:
+
+app/ or src/app/ for screens
+
+components/ for reusable UI
+
+data/ for dummy records and config
+
+services/ for API, auth, and AI logic
+
+store/ for state management
+
+assets/ for images and icons
+
+utils/ for helpers
+
+Use reusable components for:
+
+item cards,
+
+category chips,
+
+search bars,
+
+filters,
+
+bottom sheets,
+
+image galleries,
+
+stat cards,
+
+notifications,
+
+forms,
+
+AI assistant bubbles.
+
+13. Output requirements
+Generate:
+
+full mobile app architecture,
+
+polished mobile UI system,
+
+reusable components,
+
+clean folder structure,
+
+dummy data for 100 items,
+
+clear screen hierarchy,
+
+example content for students, donors, and community staff,
+
+API route stubs,
+
+a deployment-ready project structure.
+
+Make sure the result is:
+
+unique,
+
+beautiful,
+
+practical,
+
+easy to extend,
+
+clearly inspired by a real community furniture discovery platform,
+
+and optimized specifically for mobile.
+
+14. Important implementation notes
+Use placeholder content for real donor info and images.
+
+Use optimized dummy images for furniture and household items.
+
+Ensure the design feels like a real mobile ecommerce app, but adapted to a donation-sharing use case.
+
+Make student browsing the primary experience.
+
+Make donor contribution and admin management equally polished.
+
+Include accessibility, performance, and responsive design as first-class priorities.
+
+Keep the app fast, clean, and intuitive on phones.
+
+Use mobile-native patterns instead of website-style sections.
+
+15. Final instruction
+Build UTA FurniFind as a sophisticated community inventory mobile app with:
+
+premium mobile UI,
+
+advanced filters,
+
+role-based experiences,
+
+donation workflows,
+
+student discovery,
+
+100 dummy listings,
+
+and strong visual storytelling through modern mobile animations and VFX.
+
+The mobile app must preserve everything from the web version, but the design must be adapted for mobile with a stronger app-native experience.
+

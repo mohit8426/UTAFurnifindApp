@@ -1,0 +1,133 @@
+uploads = []
+
+[[generated]]
+id = "XJkwOKgeaWstuPKutizWI"
+uri = "file://artifacts/uta-furnifind/assets/images/icon.png"
+type = "image"
+title = "furnifind app icon"
+
+[[generated]]
+id = "-jToebT0fS0RlsRfgcWaa"
+uri = "file://artifacts/uta-furnifind/assets/images/splash-icon.png"
+type = "image"
+title = "furnifind splash icon"
+
+[[generated]]
+id = "zA-OsG5SIfb2O1wm2LG7O"
+uri = "file://artifacts/uta-furnifind/assets/images/hero-banner.png"
+type = "image"
+title = "furnifind hero banner"
+
+[[generated]]
+id = "2pzbbm-JnBfiQVgEQRihH"
+uri = "file://artifacts/uta-furnifind/assets/images/featured-items.png"
+type = "image"
+title = "featured furniture items"
+
+[[outputs]]
+id = "VOsp4HI9Tze1P9gRuUL2c"
+uri = "file://attached_assets/stock_images/sofa-furniture.jpg"
+type = "image"
+title = "modern sofa couch living room furniture"
+
+[[outputs]]
+id = "w3YxNTZbntqmEyEdpJjfk"
+uri = "file://attached_assets/stock_images/study-desk.jpg"
+type = "image"
+title = "modern wooden study desk home office"
+
+[[outputs]]
+id = "NRWwtvcZvM4iaeXBlh8Py"
+uri = "file://attached_assets/stock_images/mattress.jpg"
+type = "image"
+title = "clean white mattress bedroom"
+
+[[outputs]]
+id = "RMs1QrYkywJ6ZD8gJOZ0W"
+uri = "file://attached_assets/stock_images/couch.jpg"
+type = "image"
+title = "living room couch fabric sectional"
+
+[[outputs]]
+id = "F1Nv0Pc1mlkdbeVqIhTV1"
+uri = "file://attached_assets/stock_images/computer-chair.jpg"
+type = "image"
+title = "ergonomic office computer chair black"
+
+[[outputs]]
+id = "mF2ir3uOEZErjM4Vj5ps1"
+uri = "file://attached_assets/stock_images/kitchen-items.jpg"
+type = "image"
+title = "kitchen cookware pots pans utensils"
+
+[[outputs]]
+id = "IClv3Izlat6EKPNQYZR6X"
+uri = "file://attached_assets/stock_images/bookshelf.jpg"
+type = "image"
+title = "wooden bookshelf books library"
+
+[[outputs]]
+id = "0zrCcl-NKZ6gG9dfxFf-0"
+uri = "file://attached_assets/stock_images/bed-frame.jpg"
+type = "image"
+title = "bedroom bed frame headboard modern"
+
+[[outputs]]
+id = "Y9ADzXusyvN0RS0wSMzrF"
+uri = "file://attached_assets/stock_images/lamp.jpg"
+type = "image"
+title = "modern floor lamp lighting interior"
+
+[[outputs]]
+id = "hl2qazLlwdNJYvbnkMo31"
+uri = "file://attached_assets/stock_images/rug.jpg"
+type = "image"
+title = "area rug carpet floor living room"
+
+[[outputs]]
+id = "HwlvDORKDtN8ZWSidYksD"
+uri = "file://attached_assets/stock_images/appliances.jpg"
+type = "image"
+title = "household appliances microwave blender"
+
+[[outputs]]
+id = "vyVj02ZF0wz0PoQqfJl-5"
+uri = "file://attached_assets/stock_images/mirror.jpg"
+type = "image"
+title = "wall mirror bedroom decor"
+
+[[outputs]]
+id = "HpxUi62_rvHxTd8vK5CKH"
+uri = "file://attached_assets/stock_images/television.jpg"
+type = "image"
+title = "flat screen TV television living room"
+
+[[outputs]]
+id = "XfppeJwieCMgjLzdL4jDs"
+uri = "file://attached_assets/stock_images/storage.jpg"
+type = "image"
+title = "storage bins boxes organizer"
+
+[[outputs]]
+id = "ksZGnzA1fbR2Uj2T6on3m"
+uri = "file://attached_assets/stock_images/bed.jpg"
+type = "image"
+title = "bedroom furniture complete set"
+
+[[outputs]]
+id = "dfo1ZdyTojacWPbP9jeNG"
+uri = "file://attached_assets/stock_images/toys.jpg"
+type = "image"
+title = "kids toys colorful educational"
+
+[[outputs]]
+id = "UCBw4ywLGtBRErAFDQ8PI"
+uri = "file://attached_assets/stock_images/table.jpg"
+type = "image"
+title = "dining table chairs wooden furniture"
+
+[[outputs]]
+id = "v9mMnH9s9O-3cbFPSy9kn"
+uri = "file://attached_assets/stock_images/chair.jpg"
+type = "image"
+title = "modern armchair accent chair velvet"
